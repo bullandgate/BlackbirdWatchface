@@ -1,0 +1,32 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Bull and Gate",
+    "longName": "BLACKBIRD WATCH FACE",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/PebbleCrow.png",
+                "name": "IMAGE_CROW",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9:.]",
+                "file": "fonts/Extrude.ttf",
+                "name": "FONT_EXTRUDE_48",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Blackbird",
+    "uuid": "3cd314e5-63cd-4828-94c9-6ad824766ac7",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
