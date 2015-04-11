@@ -3,20 +3,31 @@
     "capabilities": [
         ""
     ],
-    "companyName": "Bull and Gate",
-    "longName": "BLACKBIRD WATCH FACE",
+    "companyName": "Bull & Gate",
+    "longName": "Blackbird",
     "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "images/PebbleCrow.png",
-                "name": "IMAGE_CROW",
+                "file": "fonts/Roboto-Medium.ttf",
+                "name": "FONT_ROBOTO_MEDIUM_16",
+                "type": "font"
+            },
+            {
+                "file": "images/iconBlackbird.png",
+                "menuIcon": true,
+                "name": "IMAGE_ICON_BLACKBIRD",
+                "type": "png"
+            },
+            {
+                "file": "images/Blackbird.png",
+                "name": "IMAGE_BLACKBIRD",
                 "type": "png"
             },
             {
                 "characterRegex": "[0-9:.]",
-                "file": "fonts/Extrude.ttf",
-                "name": "FONT_EXTRUDE_48",
+                "file": "fonts/Roboto-Black.ttf",
+                "name": "FONT_ROBOTO_BLACK_32",
                 "type": "font"
             }
         ]
